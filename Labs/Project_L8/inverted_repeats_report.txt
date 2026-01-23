@@ -1,0 +1,184 @@
+Inverted repeat analysis for three bacterial genomes
+Possible transposon-related palindromic signals, no prior motif knowledge
+======================================================================
+
+Genome: Escherichia coli K-12 MG1655 (NC_000913.3)
+Length: 4641652 bp
+Inverted repeat search: palindromic motifs, min length 4, max length 6
+
+Motif length 4:
+  Total palindromic inverted repeats: 279478
+  Distinct motifs: 16
+  Top motifs (motif : count):
+    GCGC : 35090
+    CGCG : 28226
+    CCGG : 24311
+    TTAA : 21209
+    TGCA : 19768
+    AATT : 19659
+    GATC : 19124
+    ATAT : 18884
+    TCGA : 15462
+    CATG : 15264
+  Example positions (start-end, motif):
+    1-4, AGCT
+    17-20, TGCA
+    28-31, ATAT
+    45-48, TTAA
+    68-71, AGCT
+    98-101, AATT
+    100-103, TTAA
+    104-107, AATT
+    133-136, TTAA
+    140-143, ATAT
+
+Motif length 5:
+  Total palindromic inverted repeats: 0
+
+Motif length 6:
+  Total palindromic inverted repeats: 55200
+  Distinct motifs: 64
+  Top motifs (motif : count):
+    GCGCGC : 2479
+    CGCGCG : 2129
+    TGCGCA : 2122
+    AATATT : 2052
+    GATATC : 2041
+    ATTAAT : 1862
+    ACCGGT : 1816
+    CAGCTG : 1776
+    AACGTT : 1705
+    AAATTT : 1684
+  Example positions (start-end, motif):
+    103-108, AAATTT
+    255-260, ACGCGT
+    380-385, AACGTT
+    434-439, TGGCCA
+    601-606, CAATTG
+    642-647, ACATGT
+    725-730, CGATCG
+    739-744, GCCGGC
+    754-759, GCGCGC
+    755-760, CGCGCG
+
+------------------------------------------------------------
+Genome: Bacillus subtilis subsp. subtilis str. 168 (NC_000964.3)
+Length: 4215606 bp
+Inverted repeat search: palindromic motifs, min length 4, max length 6
+
+Motif length 4:
+  Total palindromic inverted repeats: 240644
+  Distinct motifs: 16
+  Top motifs (motif : count):
+    ATAT : 26431
+    AATT : 25117
+    TTAA : 23028
+    AGCT : 22368
+    GATC : 18003
+    TATA : 16834
+    TGCA : 16713
+    CATG : 16425
+    CCGG : 14529
+    GCGC : 12338
+  Example positions (start-end, motif):
+    37-40, TCGA
+    123-126, TGCA
+    127-130, AGCT
+    148-151, TATA
+    149-152, ATAT
+    160-163, TTAA
+    234-237, AGCT
+    266-269, AATT
+    272-275, TCGA
+    278-281, AGCT
+
+Motif length 5:
+  Total palindromic inverted repeats: 0
+
+Motif length 6:
+  Total palindromic inverted repeats: 61028
+  Distinct motifs: 64
+  Top motifs (motif : count):
+    TTTAAA : 3578
+    CAGCTG : 2682
+    TGATCA : 2562
+    AAGCTT : 2524
+    AATATT : 2252
+    AAATTT : 2212
+    TCATGA : 2032
+    GATATC : 1686
+    CAATTG : 1669
+    ATTAAT : 1631
+  Example positions (start-end, motif):
+    122-127, TTGCAA
+    265-270, AAATTT
+    417-422, ATATAT
+    604-609, TATATA
+    605-610, ATATAT
+    834-839, AAGCTT
+    890-895, ATGCAT
+    892-897, GCATGC
+    897-902, CGATCG
+    959-964, AAATTT
+
+------------------------------------------------------------
+Genome: Mycobacterium tuberculosis H37Rv (NC_000962.3)
+Length: 4411532 bp
+Inverted repeat search: palindromic motifs, min length 4, max length 6
+
+Motif length 4:
+  Total palindromic inverted repeats: 361583
+  Distinct motifs: 16
+  Top motifs (motif : count):
+    CCGG : 59153
+    GCGC : 53427
+    CGCG : 52793
+    GGCC : 50359
+    TCGA : 32018
+    GATC : 31470
+    ACGT : 15245
+    AGCT : 14481
+    CATG : 14342
+    TGCA : 14314
+  Example positions (start-end, motif):
+    14-17, CCGG
+    42-45, CGCG
+    59-62, TTAA
+    110-113, GCGC
+    170-173, TCGA
+    202-205, AGCT
+    221-224, TCGA
+    225-228, GCGC
+    237-240, GGCC
+    279-282, GATC
+
+Motif length 5:
+  Total palindromic inverted repeats: 0
+
+Motif length 6:
+  Total palindromic inverted repeats: 98804
+  Distinct motifs: 64
+  Top motifs (motif : count):
+    GCCGGC : 10136
+    CGGCCG : 7868
+    CCGCGG : 6561
+    GGCGCC : 6356
+    GCGCGC : 4985
+    GTCGAC : 4376
+    CGATCG : 4290
+    CGCGCG : 4101
+    TGGCCA : 3160
+    CCCGGG : 2848
+  Example positions (start-end, motif):
+    109-114, AGCGCT
+    236-241, GGGCCC
+    306-311, GCCGGC
+    406-411, AGCGCT
+    439-444, TGGCCA
+    538-543, GGCGCC
+    548-553, ACCGGT
+    575-580, CGATCG
+    687-692, CCCGGG
+    721-726, GAATTC
+
+------------------------------------------------------------
